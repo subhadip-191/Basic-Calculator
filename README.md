@@ -14,4 +14,4 @@ History feature
 HTML5, CSS3, JavaScript
 #Preview
 
-![Calculator Screenshot](calculator.png)
+![Calculator Screenshot](cal.png)
