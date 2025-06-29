@@ -12,3 +12,6 @@ Handles basic input validations
 History feature
 # Technologies Used
 HTML5, CSS3, JavaScript
+#Preview
+
+![Calculator Screenshot](calculator.png)
