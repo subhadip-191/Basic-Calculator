@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width" />
+  <title>Calculator</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <h1 class="text-center">Let's Do Some Calculations!</h1>
+  <div class="container">
+    <input id="display" class="input" type="text" readonly />
+    <div class="buttons-grid">
+      <button class="button" id="clear">C</button>
+      <button class="button" id="backspace">⌫</button>
+      <button class="button" id="percent">%</button>
+      <button class="button operator">/</button>
+
+      <button class="button">7</button>
+      <button class="button">8</button>
+      <button class="button">9</button>
+      <button class="button operator">*</button>
+
+      <button class="button">4</button>
+      <button class="button">5</button>
+      <button class="button">6</button>
+      <button class="button operator">-</button>
+
+      <button class="button">1</button>
+      <button class="button">2</button>
+      <button class="button">3</button>
+      <button class="button operator">+</button>
+
+      <button class="button history-btn" aria-label="Show History" title="Show History">
+        <svg xmlns="http://www.w3.org/2000/svg" height="24" width="24" fill="currentColor" viewBox="0 0 24 24">
+        <path d="M13 3a9 9 0 1 0 8.94 7.52h-2.04a7 7 0 1 1-6.9-5.52V3z"/>
+        <path d="M12 7v6l5 3"/>
+        </svg>
+      </button>
+      <button class="button">0</button>
+      <button class="button">.</button>
+      <button class="button operator" id="equals">=</button>
+    </div>
+  </div>
+
+  <div id="history-container" class="history-container hidden">
+    <div class="history-box">
+      <h3>Calculation History</h3>
+      <div id="history-list" class="history-list"></div>
+      <button id="close-history" class="close-btn">Close</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
